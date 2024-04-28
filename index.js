@@ -1,3 +1,4 @@
+// BMI calculator function
 function bmiCalc(weight, height){
     var bmi = Math.round(weight / Math.pow(height,2));
     return bmi;
